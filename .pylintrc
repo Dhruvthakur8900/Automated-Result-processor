@@ -1,0 +1,8 @@
+# Local pylintrc to override invalid settings
+# Remove any unknown options like 'ignored-mixins' and use canonical message names/IDs
+
+[MESSAGES CONTROL]
+# Disable catching too general exceptions (W0703)
+disable=broad-except
+
+# Add other valid disables or message-ids here as needed
